@@ -9,7 +9,13 @@ const App = () => {
 
   return (
     <div>
-      Hi there
+      <label className="label" htmlFor="name">
+        {labelText}
+      </label>
+      <input id="name" type="text"></input>
+      <button style={{backgroundColor: 'blue', color: 'white'}}>
+        {buttonText.text}
+      </button>
     </div>
   );
 };
